@@ -8,4 +8,8 @@
     --header-height: calc(var(--header-row-height) * 2);
     --hero-height: calc(100svh - var(--header-height));
   }
+  html,
+  body {
+    /* overflow-x: hidden; */
+  }
 }

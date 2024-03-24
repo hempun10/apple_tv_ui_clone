@@ -6,7 +6,7 @@ import Offer from "../ui/offer";
 const Feature = () => {
   return (
     <div>
-      <Container className=" text-white text-4xl font-bold space-y-12 max-w-[692px] py-36 z-10 relative">
+      <Container className=" text-white text-3xl md:text-4xl font-bold space-y-12 max-w-[692px] py-36 z-10 relative">
         <FadeIn>
           <p>New Apple Originals every month — always ad‑free.</p>
         </FadeIn>

@@ -10,7 +10,7 @@ type Props = {
 
 const Offer = ({ subHead, heading, desc, btnText }: Props) => {
   return (
-    <div className=" space-y-11 pb-40">
+    <div className=" space-y-11 pb-40 ">
       <div className=" space-y-4">
         <h2 className=" text-xl font-semibold tracking-wide">{subHead}</h2>
         <h1 className=" text-4xl font-bold tracking-wide">{heading}</h1>

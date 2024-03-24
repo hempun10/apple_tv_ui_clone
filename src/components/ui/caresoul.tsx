@@ -9,7 +9,7 @@ const Caresoul = ({ movies }: { movies: Movie[] }) => {
         {movies.map((img, index) => (
           <div
             key={index}
-            className=" w-[23vw] aspect-video  relative shrink-0 "
+            className=" w-[40vw] md:w-[23vw] aspect-video  relative shrink-0 "
           >
             <Image
               src={img.poster}

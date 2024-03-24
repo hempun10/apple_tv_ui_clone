@@ -7,9 +7,9 @@ import FadeIn from "../ui/fade-in";
 const Pricing = () => {
   return (
     <div>
-      <Container className=" w-[1040px]">
+      <Container className=" md:w-[1040px]">
         <FadeIn>
-          <div className=" grid grid-cols-3 gap-6">
+          <div className=" flex flex-col md:grid md:grid-cols-3 gap-6  max-sm:px-5">
             {PRICING.map((offer, index) => (
               <Offer
                 subHead={offer.subHeadText}
