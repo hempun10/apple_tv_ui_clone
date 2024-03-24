@@ -14,7 +14,7 @@ export default function Home() {
         <Pricing />
       </div>
       <VideoCaresoul />
-      <div className=" h-[300vh]"></div>
+      {/* <div className=" h-[300vh]"></div> */}
     </>
   );
 }

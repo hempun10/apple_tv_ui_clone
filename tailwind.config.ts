@@ -7,13 +7,6 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      background: "#000",
-      backgroundContrast: "#111",
-      textBlack: "#1d1d1f",
-      white: "#fff",
-      fadeWhite: "#a1a1a6",
-    },
     fontSize: {
       xs: "0.75rem",
       sm: "0.875rem",
@@ -44,6 +37,13 @@ const config: Config = {
       ],
     },
     extend: {
+      colors: {
+        background: "#000",
+        backgroundContrast: "#111",
+        textBlack: "#1d1d1f",
+        white: "#fff",
+        fadeWhite: "#a1a1a6",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

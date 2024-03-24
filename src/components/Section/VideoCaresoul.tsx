@@ -133,6 +133,11 @@ const VideoCaresoul = () => {
         <div className=" [--duration:50s] [--caresoul-offset:32px]">
           <Caresoul movies={randomMoviesSet2} />
         </div>
+        <div className=" flex justify-center items-center pt-5">
+          <Button varient="outline" className="">
+            See full lineup
+          </Button>
+        </div>
       </motion.div>
     </motion.div>
   );
