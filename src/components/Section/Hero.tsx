@@ -21,7 +21,10 @@ const Hero = () => {
       >
         <video
           src={"/assets/large.mp4"}
-          className=" sticky top-0 h-screen object-cover -z-0"
+          autoPlay
+          muted
+          loop
+          className=" sticky top-0 h-screen object-cover -z-0 w-full "
         />
       </motion.div>
       <Container className=" pb-7 relative z-10 h-[--hero-height]  ">

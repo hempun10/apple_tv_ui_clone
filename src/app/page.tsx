@@ -8,13 +8,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className=" bg-background text-white">
+      <div className=" bg-background text-white relative z-10">
         <Hero />
         <Feature />
         <Pricing />
       </div>
-      <div className=" h-[100vh]"></div>
       <VideoCaresoul />
+      <div className=" h-[300vh]"></div>
     </>
   );
 }

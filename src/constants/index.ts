@@ -18,3 +18,47 @@ export const PRICING = [
     btnText: "Try Apple One free",
   },
 ];
+
+export type Movie = {
+  poster: string;
+  name: string;
+};
+
+export const movies = [
+  {
+    poster: "/assets/airplane.webp",
+    name: "Airplane",
+  },
+  {
+    poster: "/assets/family-man.webp",
+    name: "Family man",
+  },
+  {
+    poster: "/assets/laboratory.webp",
+    name: "Laboratory",
+  },
+  {
+    poster: "/assets/napoleon.webp",
+    name: "Napoleon",
+  },
+  {
+    poster: "/assets/person-in-darkness.webp",
+    name: "Person in Darkness",
+  },
+  {
+    poster: "/assets/scary-building.webp",
+    name: "Scary Building",
+  },
+  { poster: "/assets/stars.webp", name: "Stars" },
+];
+
+export const randomMoviesSet1 = movies
+  .sort(() => Math.random() - 0.5)
+  .concat(movies.sort(() => Math.random() - 0.5))
+  .concat(movies.sort(() => Math.random() - 0.5));
+
+export const randomMoviesSet2 = movies
+  .sort(() => Math.random() - 0.5)
+  .concat(movies.sort(() => Math.random() - 0.5))
+  .concat(movies.sort(() => Math.random() - 0.5))
+  .sort(() => Math.random() - 0.5);
